@@ -53,7 +53,7 @@ on:
 
 ## 通知效果预览
 以下为 Telegram / PushPlus 推送的消息样式：
-## 📅 DNSHE 自动续期报告 - 20XX-XX-XX
+### 📅 DNSHE 自动续期报告 - 20XX-XX-XX
 
 ### 🔹 账户：账号一
 总域名：3 | ✅ 续期成功：2 | ⏭️ 跳过：1 | ❌ 失败：0
@@ -74,7 +74,6 @@ on:
 ❌ old.domain.com
 续期失败：renewal window expired
 
----
 
 ## 常见问题
 Q：免费域名真的能一直续期下去吗？
