@@ -43,11 +43,11 @@
 推送代码后，Actions 会自动启用。您也可以在 `Actions` 页面手动触发 `DNSHE Auto Renew` 工作流。
 
 ## 📅 执行计划
-工作流默认每月 1 日 UTC 0:00 自动执行。您可修改 `.github/workflows/renew.yml` 中的 `cron` 表达式：
+工作流默认每月 1 日 北京时间 早上 8 点（UTC 0:00） 自动执行。您可修改 `.github/workflows/renew.yml` 中的 `cron` 表达式：
 ```yaml
 on:
   schedule:
-    - cron: '0 0 1 * *'   # 每月 1 日
+    - cron: '0 0 1 * *'   # 每月 1 日 北京时间 早上8：00（UTC 0:00）
 ```
 推荐使用 crontab.guru 调试表达式。
 
