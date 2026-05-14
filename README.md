@@ -41,7 +41,16 @@
 | `TELEGRAM_BOT_TOKEN` | ❌ | Telegram Bot 令牌 |
 | `TELEGRAM_CHAT_ID` | ❌ | Telegram 接收消息的 Chat ID |
 | `PUSHPLUS_TOKEN` | ❌ | PushPlus 令牌 (pushplus.plus) |
-| loon脚本corn参数| ✅ | cron "0 8 1 * *" script-path=https://your.host/dnshe_renew.js ,tag=DNSHE续期,argument="名称:API密钥:API Secre;名称:API密钥:API Secre",timeout=600,enable=true |
+
+3. Loon脚本配置
+
+打开 BoxJs 后台（通过 Surge/Quantumult X/Loon 面板进入，或直接 Safari 访问 boxjs.com）；进入 订阅 页面；点击 + 或 添加，粘贴你的 Raw 链接。
+保存后，BoxJs 会自动拉取配置，并在 应用 页面生成 DNSHE API 配置项。
+
+| Secret 名称 | 推荐 | 说明 |
+| :--- | :--- | :--- |
+| loon脚本参数| ❌ | cron "0 8 1 * *" script-path=https://your.host/dnshe_renew.js ,tag=DNSHE续期,argument="名称:API密钥:API Secre;名称:API密钥:API Secre",timeout=600,enable=true |
+| DNSHE API | ✅ | 账户一:cfsd_xxxxxxxxxx:yyyyyyyyyyyyy;账户二:cfsd_zzzzzzzzzz:aaaaaaaaaaaaa |
 
 **`DNSHE_ACCOUNTS` 填写格式（超级简单）：**
 账户名称:API_KEY:API_SECRET;账户名称2:API_KEY2:API_SECRET2
